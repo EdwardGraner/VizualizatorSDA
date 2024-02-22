@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="331.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arbori.afisare.Afisare">
+   <children>
+      <Button fx:id="bst" layoutX="176.0" layoutY="137.0" mnemonicParsing="false" onAction="#bstAction" prefHeight="44.0" prefWidth="77.0" style="-fx-background-color: #98FB98;" text="BST" AnchorPane.leftAnchor="176.0" AnchorPane.topAnchor="137.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="rb" layoutX="176.0" layoutY="229.0" mnemonicParsing="false" onAction="#rbAction" prefHeight="44.0" prefWidth="77.0" style="-fx-background-color: #CD5C5C;" text="RB">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
